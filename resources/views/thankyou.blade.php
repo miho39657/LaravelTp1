@@ -47,7 +47,7 @@
         <h2>Thank you <span>{{$user->name}}</span></h2>
         <h3>Ur Email  :<span> {{$user->email}}</span></h3>
         <h4>UR Message : {{$user->msg}}</h4>
-        <button onclick="location.href='{{url('homme')}}'">Back to homme</button>
+        <button onclick="location.href='{{url('')}}'">Back to homme</button>
         </div>
     </body>
 </html>
